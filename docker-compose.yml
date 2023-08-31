@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  cheatengine_svelte:
+    container_name: icheatengine_svelte
+    image: cheatengine_svelte:0.0.1
+    build: .
+    volumes:
+    - ./frontendmovie:/app/frontendmovie
+    ports:
+      - 3017:3017
+    restart: always

@@ -414,7 +414,7 @@
     <div class="flex-1">
         <a class="normal-case text-xl">
             <img
-                style="width: 100px;" 
+                class="w-[90px] lg:w-[100px]" 
                 src="https://i.ibb.co/Jr6S9Ns/2023-05-17-T11-00-08-955-Z-mansione77512.png" alt="">
         </a>
     </div>
@@ -422,7 +422,7 @@
         <a href="{path_website}" class="btn btn-accent btn-sm">Daftar</a>
     </div>
 </div>
-<div class="text-black font-bold bg-[#ff7ac6] text-center text-lg mt-1">
+<div class="text-black font-bold bg-[#ff7ac6] text-center text-[14px] lg:text-lg mt-1">
     Aktifasi Minimal Saldo Rp 50.000
 </div>
 {#if flat_first}
@@ -502,10 +502,10 @@
     {#if flat_second}
     <table class="table table-xs">
         <thead>
-            <tr>
+            <tr class="border-none">
                 <th colspan=2 class="text-white text-center bg-black">Username : {field_username}</th>
             </tr>
-            <tr>
+            <tr class="border-none">
                 <th colspan=2 class="text-white text-center bg-black">Sedang Mengaktifasi Cheat...</th>
             </tr>
             <tr class="border-none">
@@ -562,7 +562,7 @@
                 <td class="{table_td}">EVO CASINO</td>
                 <td class="{css_value_12}{css_value_master}">{game_value_12}</td>
             </tr>
-            <tr>
+            <tr class="border-none">
                 <td colspan="2" class="text-center text-white">
                     {game_value_text}
                 </td>
@@ -574,7 +574,7 @@
 
 <footer class="footer footer-center p-2 bg-[#ff7ac6] text-black font-bold mt-5" style="background-color: #ff7ac6;">
     <div>
-      <p>CHEATENGINE BY SERVER THAILAND</p>
+      <p class="text-xs">CHEATENGINE BY SERVER THAILAND</p>
     </div>
 </footer>
 
