@@ -435,7 +435,7 @@
     <center class="text-white text-xs">
         ~ Masukkan User id (Pastikan Telah Terdaftar) : <br>
         ~ Harus Terdaftar disitus server Thailand<br>
-        ~ Jika Belum Terdaftar Bisa Klik TOMBOL DAFTAR<br>
+        ~ Jika Belum Terdaftar Bisa Klik <a href="{path_website}" class="badge badge-accent badge-xs cursor-pointer ">TOMBOL DAFTAR</a><br>
         Atau Tombol Daftar Diatas<br>
         <div class="grid grid-cols-1 text-center w-full px-5 lg:px-0 lg:w-1/4 mt-5 gap-2">
             <input
@@ -458,7 +458,7 @@
     </center>
 </div>
 {/if}
-<div class="container mx-auto lg:px-1 xl:mt-0 max-w-screen-xl pb-2 " style="margin-top: 20px;">
+<div class="container mx-auto lg:px-1 xl:mt-0 max-w-screen-xl pb-2">
     {#if flat_first}
         <table class="table ">
             <thead>
@@ -469,8 +469,8 @@
             </thead>
             <tbody>
                 <tr class="border-none">
-                    <td class="text-[#4efd09] text-center bg-black text-[11px] lg:text-xs">{deposit_1}</td>
-                    <td class="text-[#4efd09] text-center bg-black text-[11px] lg:text-xs">{withdraw_1}</td>
+                    <td class="{table_td}">{deposit_1}</td>
+                    <td class="{table_td}">{withdraw_1}</td>
                 </tr>
                 <tr class="border-none">
                     <td class="{table_td}">{deposit_2}</td>
@@ -576,7 +576,7 @@
     {/if}
 </div>
 
-<footer class="footer footer-center p-2 bg-[#ff7ac6] text-black font-bold mt-5" style="background-color: #ff7ac6;">
+<footer class="footer footer-center p-2 bg-[#ff7ac6] text-black font-bold mt-5">
     <div>
       <p class="text-xs">CHEATENGINE BY SERVER THAILAND</p>
     </div>
