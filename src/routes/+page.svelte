@@ -1,5 +1,6 @@
 <script>
     import { goto } from '$app/navigation';
+    import Seo from "$lib/Seo.svelte";
     import "../app.css";     
     
     let value = ['7000.000', '500.000', '600.000','1.250.000', '2.000.000', '1.750.000','5.000.000', '300.000', 
@@ -408,7 +409,11 @@
             },10000);
     }
 </script>
-
+<Seo 
+    title="20.212.977 Sedang menggunakan cheat ini" 
+    descp="20.212.977 Sedang menggunakan cheat ini" 
+    url=""
+    type="Website" />
 
 <div class="navbar h-[90px] container mx-auto lg:px-1 xl:mt-0 max-w-screen-xl pb-2 ">
     <div class="flex-1">
@@ -432,25 +437,24 @@
         ~ Harus Terdaftar disitus server Thailand<br>
         ~ Jika Belum Terdaftar Bisa Klik TOMBOL DAFTAR<br>
         Atau Tombol Daftar Diatas<br>
-        <div class="col-sm-12 col-lg-2 mt-3 mb-3">
+        <div class="grid grid-cols-1 text-center w-full px-5 lg:px-0 lg:w-1/4 mt-5 gap-2">
             <input
                 bind:value={field_username}
-                class="input input-bordered w-full max-w-xs text-center" type="text" placeholder="USER ID">
-        </div>
-        <div class="col-sm-12 col-lg-2 mt-3 mb-3">
+                class="input input-bordered  text-center" type="text" placeholder="USER ID">
+
             <select
                 bind:value={field_select}
-                style="text-align:center;" 
-                class="select select-bordered w-full max-w-xs">
+                class="select select-bordered  text-center ">
                 <option value="">--Pilih Cheat--</option>
                 <option value="1">Cheat Auto Scatter</option>
                 <option value="2">Auto Sensational</option>
                 <option value="3">Auto Wild</option>
             </select>
-        </div>
-        <button on:click={() => {
+            <button on:click={() => {
                 generate();
-            }}  type="button" class="btn btn-warning">AKTIVASI</button>
+            }}  type="button" class="btn btn-success btn-sm ">AKTIVASI</button>
+        </div>
+        
     </center>
 </div>
 {/if}

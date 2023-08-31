@@ -11,6 +11,6 @@ WORKDIR /app
 COPY --from=builder --chown=node:node /app/build ./build
 COPY --from=builder --chown=node:node /app/node_modules ./node_modules
 COPY --chown=node:node package.json .
-ENV PORT 3017
-EXPOSE 3017
+ENV PORT 89
+EXPOSE 89
 CMD ["node","build"]

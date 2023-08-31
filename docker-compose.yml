@@ -8,5 +8,5 @@ services:
     volumes:
     - ./frontendmovie:/app/frontendmovie
     ports:
-      - 3017:3017
+      - 89:89
     restart: always
