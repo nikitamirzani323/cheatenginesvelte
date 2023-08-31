@@ -416,18 +416,20 @@
     type="Website" />
 
 <div class="navbar h-[90px] container mx-auto lg:px-1 xl:mt-0 max-w-screen-xl pb-2 ">
-    <div class="flex-1">
-        <a class="normal-case text-xl">
+    <div class="navbar-start">
+    </div>
+    <div class="navbar-center">
+        <a href="/">
             <img
                 class="w-[90px] lg:w-[100px]" 
                 src="https://i.ibb.co/Jr6S9Ns/2023-05-17-T11-00-08-955-Z-mansione77512.png" alt="">
         </a>
     </div>
-    <div class="flex-none gap-2">
-        <a href="{path_website}" class="btn btn-accent btn-sm">Daftar</a>
+    <div class="navbar-end">
+        <a href="{path_website}" class="btn btn-active btn-ghost btn-sm">Daftar</a>
     </div>
 </div>
-<div class="text-black font-bold bg-[#ff7ac6] text-center text-[14px] lg:text-lg mt-1">
+<div class="text-black font-bold bg-[#00ff00] text-center text-[14px] lg:text-lg mt-1">
     Aktifasi Minimal Saldo Rp 50.000
 </div>
 {#if flat_first}
@@ -435,7 +437,7 @@
     <center class="text-white text-xs">
         ~ Masukkan User id (Pastikan Telah Terdaftar) : <br>
         ~ Harus Terdaftar disitus server Thailand<br>
-        ~ Jika Belum Terdaftar Bisa Klik <a href="{path_website}" class="badge badge-accent badge-xs cursor-pointer ">TOMBOL DAFTAR</a><br>
+        ~ Jika Belum Terdaftar Bisa Klik <a href="{path_website}" class="badge badge-neutral badge-xs cursor-pointer ">TOMBOL DAFTAR</a><br>
         Atau Tombol Daftar Diatas<br>
         <div class="grid grid-cols-1 text-center w-full px-5 lg:px-0 lg:w-1/4 mt-5 gap-2">
             <input
@@ -458,7 +460,7 @@
     </center>
 </div>
 {/if}
-<div class="container mx-auto lg:px-1 xl:mt-0 max-w-screen-xl pb-2">
+<div class="container mx-auto lg:px-1 max-w-screen-xl pb-2 mt-5">
     {#if flat_first}
         <table class="table ">
             <thead>
@@ -576,7 +578,7 @@
     {/if}
 </div>
 
-<footer class="footer footer-center p-2 bg-[#ff7ac6] text-black font-bold mt-5">
+<footer class="footer footer-center p-2 bg-[#00ff00] text-black font-bold mt-5">
     <div>
       <p class="text-xs">CHEATENGINE BY SERVER THAILAND</p>
     </div>
