@@ -104,11 +104,7 @@
     const generate = () => {
         let msg = ""
         let flag = true
-        if(field_username == ""){
-            msg += "User ID harus diisi dengan benar\n"
-            flag = false;
-        }
-        if(parseInt(field_username.length) < 4){
+        if(field_username == "" || parseInt(field_username.length) < 4){
             msg += "User ID harus diisi dengan benar\n"
             flag = false;
         }
