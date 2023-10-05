@@ -46,7 +46,7 @@
     let table_td = "text-[#4efd09] text-center bg-black text-[10px] lg:text-[11-px]";
     let flat_first = true;
     let flat_second = false;
-    let path_website = "https://mansione77.biz/register?ref=ysxfwbp";
+    let path_website = "https://mansione77gacor5.club/id/auth/register?ref=mcdhwjl";
     setInterval(() => {
             currentIndex2 = Math.floor((Math.random() *39) + 1);
             currentInde2 = Math.floor((Math.random() * 40) + 1);
